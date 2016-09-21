@@ -1,0 +1,15 @@
+Int declaration encountered
+Id=a
+Int declaration encountered
+Id=b
+Size=20
+Assignment operation encountered
+Integer literal encountered
+Value=1000
+Addition expression encountered
+Assignment operation encountered
+Integer literal encountered
+Value=0
+Addition expression encountered
+Assignment operation encountered
+Program encountered

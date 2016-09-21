@@ -1,0 +1,35 @@
+Int declaration encountered
+Id=sampleStuff
+Size=4
+Boolean declaration encountered
+Id=testBool
+Boolean literal encountered
+Value=false
+Assignment operation encountered
+Integer literal encountered
+Value=0
+Integer literal encountered
+Value=1
+Assignment operation encountered
+Integer literal encountered
+Value=1
+Integer literal encountered
+Value=42
+Assignment operation encountered
+Integer literal encountered
+Value=2
+Integer literal encountered
+Value=31
+Assignment operation encountered
+Integer literal encountered
+Value=3
+Integer literal encountered
+Value=0
+Integer literal encountered
+Value=1
+Integer literal encountered
+Value=2
+Multiplication expression encountered
+Addition expression encountered
+Assignment operation encountered
+Program encountered

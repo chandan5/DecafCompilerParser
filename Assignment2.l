@@ -7,7 +7,6 @@
 #include "Assignment2.tab.hh"
 
 int error_count = 0;
-int line_num = 0;
 //ofstream flexoutfile;
 %}
 
@@ -17,7 +16,7 @@ DIGIT [0-9]
 ALPHA [a-zA-Z]
 
 %%
-[ \t]  {
+[ \t\n]  {
 
 };
 \/\/(.*?)\n {
@@ -34,7 +33,7 @@ ALPHA [a-zA-Z]
 int {
     return INT;
 }
-boolean {
+bool {
     return BOOLEAN;
 }
 true {
@@ -89,6 +88,5 @@ main {
 ; {
     return SEMICOLON;
 }
-\n {++line_num;}
 . {++error_count;}
 %%

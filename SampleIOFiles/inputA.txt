@@ -1,0 +1,11 @@
+int main() {
+  int sampleStuff[4];
+  bool testBool;
+
+  
+  testBool = false;  
+  sampleStuff[0] = 1;
+  sampleStuff[1] = 42;
+  sampleStuff[2] = 31;
+  sampleStuff[3] = sampleStuff[0] + sampleStuff[1]*sampleStuff[2];
+}
